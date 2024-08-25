@@ -1,0 +1,484 @@
+@media (max-width: 768px) {
+  .container {
+    width: 320px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media (max-width: 767px) {
+  .landing .text {
+    width: 100%;
+  }
+  .landing .text .content {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #nav-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .info-cont .left-icons {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .landing .text .content {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .landing {
+    background-position: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .buttons {
+    display: none;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sec-two .container .cards {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 50px;
+  }
+
+  .sec-two .container .card-one,
+  .sec-two .container .card-two,
+  .sec-two .container .card-three {
+    width: 90%;
+  }
+
+  .about {
+    display: block;
+    text-align: center;
+  }
+
+  .right-sec .mon {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sec-two .container .card-one h2,
+  .sec-two .container .card-two h2 {
+    font-size: 24px;
+  }
+
+  .about .left-sec h3 {
+    font-size: 25px;
+  }
+
+  .about .left-sec h2 {
+    font-size: 28px;
+  }
+
+  .right-sec h2 {
+    font-size: 20px;
+  }
+
+  .right-sec .mon {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sec-two .container .card-three img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about .left-sec button {
+    position: relative;
+    bottom: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .submit {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .submit .container .form {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .submit .container .form .the-form .small .sm-inp,
+  .submit .container .form .the-form .small .lrg-inp {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .right-form {
+    padding: 20px;
+  }
+
+  .submit .container .form .left-text h4 {
+    font-size: 28px;
+  }
+
+  .submit .container .form .left-text h1 {
+    font-size: 32px;
+  }
+
+  .submit .container .form .left-text p {
+    font-size: 18px;
+  }
+
+  .form-head {
+    font-size: 28px;
+  }
+
+  .submit .container .form .left-text button {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .submit {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .submit .container .form .left-text h4 {
+    font-size: 24px;
+  }
+
+  .submit .container .form .left-text h1 {
+    font-size: 28px;
+  }
+
+  .submit .container .form .left-text p {
+    font-size: 16px;
+  }
+
+  .form-head {
+    font-size: 24px;
+  }
+
+  .submit .container .form .left-text button {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(2, auto); /* 2 columns for tablets */
+    gap: 60px 20px; /* Adjust gap */
+  }
+
+  .grid-sec {
+    padding-top: 80px;
+    padding-bottom: 90px;
+  }
+
+  .grid-sec .container .grid-heading p {
+    font-size: 30px;
+  }
+
+  .grid-sec .container .grid-heading h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: auto; /* 1 column for smaller devices */
+    gap: 40px 15px;
+  }
+
+  .grid-sec {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+
+  .grid-sec .container .grid-heading p {
+    font-size: 28px;
+  }
+
+  .grid-sec .container .grid-heading h1 {
+    font-size: 30px;
+  }
+
+  .grid-item {
+    font-size: 16px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-sec {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+
+  .grid-sec .container .grid-heading p {
+    font-size: 24px;
+  }
+
+  .grid-sec .container .grid-heading h1 {
+    font-size: 28px;
+  }
+
+  .grid-item {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .grid-container-row-one {
+    grid-template-columns: 60% 40%; /* Adjust to 2 columns */
+  }
+
+  .grid-container-row-two {
+    grid-template-columns: 50% 50%; /* Adjust to 2 columns */
+  }
+
+  .grid-row .grid-container-row-one .grid-item-big {
+    padding: 60px; /* Reduce padding */
+  }
+
+  .grid-row .grid-container-row-one .grid-item-big h2 {
+    font-size: 30px;
+  }
+
+  .grid-row .grid-container-row-one .grid-item-big h1 {
+    font-size: 35px;
+  }
+
+  .grid-row .grid-container-row-one .grid-item-big p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-container-row-one,
+  .grid-container-row-two {
+    grid-template-columns: 100%; /* Stack items vertically */
+  }
+
+  .grid-row .grid-container-row-one .grid-item-big {
+    padding: 40px; /* Further reduce padding */
+  }
+
+  .grid-row .grid-container-row-one .grid-item-big h2 {
+    font-size: 28px;
+  }
+
+  .grid-row .grid-container-row-one .grid-item-big h1 {
+    font-size: 30px;
+  }
+
+  .grid-row .grid-container-row-one .grid-item-big p {
+    font-size: 16px;
+  }
+
+  .grid-row .grid-container-row-one .grid-item-big button {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+
+  .grid-back .pills {
+    font-size: 18px;
+    top: 60%; /* Adjust for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-row .grid-container-row-one .grid-item-big {
+    padding: 20px; /* Minimal padding */
+  }
+
+  .grid-row .grid-container-row-one .grid-item-big h2 {
+    font-size: 24px;
+  }
+
+  .grid-row .grid-container-row-one .grid-item-big h1 {
+    font-size: 28px;
+  }
+
+  .grid-row .grid-container-row-one .grid-item-big p {
+    font-size: 14px;
+  }
+
+  .grid-row .grid-container-row-one .grid-item-big button {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .grid-back .pills {
+    font-size: 16px;
+    top: 50%; /* Further adjust for smaller screens */
+  }
+}
+
+* Responsive Styles */ @media (max-width: 768px) {
+  .card-container {
+    flex-direction: column; /* Stack cards vertically on small screens */
+    align-items: center;
+  }
+
+  .card {
+    width: 100%; /* Full width for cards on mobile */
+    max-width: 100%;
+  }
+
+  .card-container .card .sign {
+    position: static;
+    margin-top: 20px;
+    left: 0;
+    top: 0;
+  }
+
+  .testmonial .test-head h3 {
+    font-size: 30px; /* Adjust heading sizes for smaller screens */
+  }
+
+  .testmonial .test-head h1 {
+    font-size: 35px;
+  }
+
+  .left-right-icons::before {
+    width: 100%;
+  }
+
+  .testmonial .container .four {
+    grid-template-columns: 1fr 1fr; /* Adjust grid layout for small screens */
+  }
+
+  .testmonial .container .the-two {
+    grid-template-columns: 1fr 1fr; /* Adjust grid layout for small screens */
+  }
+
+  .testmonial .container .four .one h1,
+  .testmonial .container .four .two h1,
+  .testmonial .container .four .three h1,
+  .testmonial .container .four .fourth h1 {
+    font-size: 30px; /* Adjust font size */
+  }
+
+  .testmonial .container .four .one h2,
+  .testmonial .container .four .two h2,
+  .testmonial .container .four .three h2,
+  .testmonial .container .four .fourth h2 {
+    font-size: 18px; /* Adjust font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .card img {
+    max-width: 40%; /* Further reduce image size on very small screens */
+  }
+
+  .testmonial .test-head h3 {
+    font-size: 25px; /* Adjust heading sizes for extra small screens */
+  }
+
+  .testmonial .test-head h1 {
+    font-size: 30px;
+  }
+
+  .testmonial .container .four {
+    grid-template-columns: 1fr; /* Single column layout on extra small screens */
+  }
+
+  .testmonial .container .the-two {
+    grid-template-columns: 1fr; /* Single column layout on extra small screens */
+  text-align: center;
+  }
+
+  .testmonial .container .four .one h1,
+  .testmonial .container .four .two h1,
+  .testmonial .container .four .three h1,
+  .testmonial .container .four .fourth h1 {
+    font-size: 35px; /* Adjust font size */
+  }
+
+  .testmonial .container .four .one h2,
+  .testmonial .container .four .two h2,
+  .testmonial .container .four .three h2,
+  .testmonial .container .four .fourth h2 {
+    font-size: 16px; /* Adjust font size */
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container .card .card-text p {
+    font-size: 6px;
+    font-family: "Work Sans";
+    color: #727272;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container .card .sign {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .left-right-icons .left {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .left-right-icons {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container .card .card-text h2 {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container .card .card-text h3 {
+    font-size: 10px;
+  }
+}
+
+
+
+
+
+
