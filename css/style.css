@@ -852,7 +852,11 @@ padding: 60px;
   cursor: pointer;
 }
 .grid-row .grid-container-row-one .grid-item-big .row-btn {
+padding-top: 20px;
+
+
 }
+
 
 .grid-row .grid-items img {
   max-width: 100%;
