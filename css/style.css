@@ -739,7 +739,7 @@ ul {
 
 .grid-container {
   display: grid;
-  gap: 100px 32px;
+
   grid-template-columns: auto auto auto;
 }
 
@@ -826,6 +826,14 @@ text-transform: capitalize;
   font-weight: 800;
   text-transform: capitalize;
 }
+
+.grid-row .grid-container-row-one .grid-item-big {
+padding: 60px;
+
+
+
+}
+
 
 .grid-row .grid-container-row-one .grid-item-big p {
   font-size: 20px;
