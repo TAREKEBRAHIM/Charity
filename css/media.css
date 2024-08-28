@@ -166,6 +166,27 @@
   }
 }
 
+
+
+
+
+@media (max-width: 768px) {
+.submit .container .form .the-form .small {
+  padding: 10px;
+  text-align: center;
+}
+}
+@media (max-width: 768px) {
+.submit .container .form .left-text .sub-btn {
+text-align: center;
+}
+}
+
+
+
+
+
+
 @media (max-width: 480px) {
   .submit {
     padding-top: 60px;
@@ -348,7 +369,7 @@
   }
 }
 
-* Responsive Styles */ @media (max-width: 768px) {
+ @media (max-width: 768px) {
   .card-container {
     flex-direction: column; /* Stack cards vertically on small screens */
     align-items: center;
@@ -476,6 +497,275 @@
     font-size: 10px;
   }
 }
+
+@media (max-width: 1200px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .vol-header p {
+    font-size: 30px;
+  }
+
+  .card-grid .car-hand h2 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 992px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .vol-header p {
+    font-size: 28px;
+  }
+
+  .card-grid .car-hand h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vol-header p {
+    font-size: 25px;
+  }
+
+  .card-grid .car-hand h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .vol-header p {
+    font-size: 22px;
+  }
+
+  .card-grid .car-hand h2 {
+    font-size: 16px;
+  }
+
+  .card-grid .car-hand img {
+    width: 70px;
+    height: 100px;
+  }
+
+  .card-grid .car-hand button {
+    padding: 12px 25px;
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .events {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .events .events-heading {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .events .events-heading .heding-para p,
+  .events .events-heading .heding-para h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .events .events-heading .heding-para h2 {
+    font-size: 30px;
+  }
+
+  .events .events-heading .the-heading-btn button {
+    padding: 15px 25px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .events .left-right-events {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .left-right-events .the-left .timing {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .left-right-events .the-left .timing::before {
+    width: 100%;
+  }
+
+  .left-right-events .the-left .timing .time-left h2,
+  .left-right-events .the-left .timing .time-right h2 {
+    font-size: 18px;
+  }
+
+  .left-right-events .the-left .location {
+    padding: 8px;
+  }
+
+  .left-right-events .the-left .right-h {
+    font-size: 22px;
+  }
+
+  .left-right-events .the-left .right-p {
+    font-size: 18px;
+  }
+
+  .the-right {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .the-right .flex-one .first-flex,
+  .the-right .flex-one .sec-flex,
+  .the-right .flex-one .thr-flex {
+    font-size: 20px;
+    padding: 20px;
+    top: 0;
+    right: 0;
+  }
+
+  .the-right .flex-one h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .the-right .sec-event-one h3,
+  .the-right .sec-event-one span,
+  .the-right .sec-event-one h1,
+  .the-right .sec-event-one p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .events .left-right-events .the-right .sec-event-one::before {
+    width: 100%;
+    left: 0;
+  }
+}
+
+
+
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .email .mail-cont {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .email .mail-cont .left-mail-sec,
+  .email .mail-cont .right-mail-sec {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    height: auto;
+  }
+
+  .left-mail-sec p,
+  .mail-cont .right-mail-sec p {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .left-mail-sec h2,
+  .mail-cont .right-mail-sec h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .left-mail-sec h4 {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .left-mail-sec .mail-inp {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .left-mail-sec .mail-inp .inp-fil input {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .left-mail-sec .mail-inp .mail-btn button {
+    padding: 15px 30px;
+  position: relative;
+  bottom: 10px;
+  }
+
+  .mail-cont .right-mail-sec .right-mail-btn button {
+    padding: 15px 20px;
+ font-size: 14px;
+position: relative;
+left: 80px;
+bottom: 10px;
+}
+}
+
+
+
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .con {
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+  }
+
+  .left-column,
+  .right-column {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .left-column {
+    text-align: center;
+  }
+
+  .right-column {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .list {
+    margin-bottom: 20px;
+  }
+
+  .social-icons {
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .social-icons .ins,
+  .social-icons .fac,
+  .social-icons .tw,
+  .social-icons .pn {
+    padding: 15px;
+  }
+
+  .copy {
+    padding: 20px;
+  }
+}
+
+
+
+
 
 
 

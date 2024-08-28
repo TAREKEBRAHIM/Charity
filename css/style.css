@@ -69,6 +69,11 @@ ul {
   line-height: 50px;
 }
 
+.info-bar .info-cont .left-icons P {
+  font-family: "WORK SANS";
+  font-size: 18px;
+}
+
 .info-bar {
   background-color: #77d7d3;
   color: #126360;
@@ -199,7 +204,7 @@ ul {
 .head::after {
   content: "";
   position: absolute;
-  left: 0;
+  left: 4px;
   width: 14px;
   height: 14px;
   border-radius: 50%;
@@ -213,8 +218,8 @@ ul {
   height: 1px;
   background-color: white;
   bottom: -30px;
-  width: 250px;
-  left: 2px;
+  width: 340px;
+  left: 5px;
 }
 
 .buttons {
@@ -251,7 +256,7 @@ ul {
 .btn-two::after {
   content: "below poverty line";
   position: absolute;
-  left: 33%;
+  left: 45%;
   width: 230px;
   height: 22px;
   border-radius: 25px;
@@ -263,6 +268,10 @@ ul {
   word-spacing: 1px;
   font-size: 18px;
   letter-spacing: 1px;
+  font-family: "work sans";
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 18px;
 }
 
 .sec-two {
@@ -292,6 +301,7 @@ ul {
   height: auto;
   margin-bottom: 20px;
   box-sizing: border-box;
+  padding-top: 65px;
 }
 
 .sec-two .container .card-three {
@@ -307,7 +317,7 @@ ul {
   font-size: 35px;
   text-transform: uppercase;
   padding-top: 20px;
-  font-weight: 400px;
+  font-weight: bolder;
   font-family: "Shippori Mincho";
 }
 
@@ -318,13 +328,14 @@ ul {
 }
 
 .sec-two .container .card-one button {
-  padding: 12px 20px;
+  padding: 22px 20px;
   border-radius: 30px;
   text-transform: uppercase;
   font-size: 18px;
   border: none;
   font-family: "Work Sans";
   cursor: pointer;
+  font-weight: 500;
 }
 
 .sec-two .container .card-one .sec-btn {
@@ -363,6 +374,7 @@ ul {
   font-size: 35px;
   color: #ff6d6d;
   font-family: "Sue Ellen Francisco";
+  font-weight: 400;
 }
 
 .about .left-sec h2 {
@@ -376,11 +388,12 @@ ul {
   font-size: 20px;
   color: #727272;
   font-family: "Work Sans";
+  padding-top: 15px;
 }
 
 .about .left-sec button {
-  padding: 14px 20px;
-  border-radius: 25px;
+  padding: 25px 35px;
+  border-radius: 30px;
   background-color: #ff6d6d;
   color: white;
   text-transform: uppercase;
@@ -430,15 +443,20 @@ ul {
 .right-sec h2 {
   text-transform: capitalize;
   font-size: 25px;
-  padding: 50px 0px 10px 40px;
+  padding: 50px 0px 30px 40px;
   font-family: "Shippori Mincho";
+  color: #2e4049;
 }
 
 .right-sec .mon {
   display: flex;
-  padding-left: 25px;
-  justify-content: space-around;
-  gap: 100px;
+  padding-left: 45px;
+  justify-content: space-between;
+  font-size: 20px;
+  font-family: "Shippori Mincho";
+  font-weight: 800;
+  color: #2e4049;
+  padding-top: 20px;
 }
 
 .right-sec .tex-two-btn {
@@ -452,8 +470,9 @@ ul {
   background-color: white;
   text-transform: capitalize;
   font-size: 18px;
-  font-family: "Shippori Mincho";
+  font-family: "work sans";
   cursor: pointer;
+  font-weight: 500;
 }
 
 .right-sec .lists li {
@@ -471,6 +490,7 @@ ul {
   font-size: 20px;
   padding-top: 10px;
   text-transform: capitalize;
+  padding-right: 17px;
 }
 
 .right-sec .lists .fa-check {
@@ -647,6 +667,8 @@ ul {
   background-color: #ff6d6d;
   font-size: 18px;
   cursor: pointer;
+  border: none;
+  font-family: "Work Sans";
 }
 
 .submit .container .form .left-text .sub-btn {
@@ -707,12 +729,12 @@ ul {
   text-transform: uppercase;
   font-family: "work sans";
   cursor: pointer;
+  font-weight: 500;
 }
 
 .grid-sec {
   padding-top: 120px;
   padding-bottom: 130px;
-  text-transform: capitalize;
 }
 
 .grid-container {
@@ -735,7 +757,22 @@ ul {
   color: #ff6d6d;
   font-size: 35px;
   font-family: "Sue Ellen Francisco";
+  font-weight: 400;
+}
+
+.grid-sec .grid-container .grid-item h2 {
+  font-family: "Shippori Mincho";
+  font-size: 25px;
   font-weight: 800;
+  text-transform: capitalize;
+}
+
+.grid-sec .grid-container .grid-item p {
+  color: #727272;
+  font-family: "Work Sans";
+  font-size: 20px;
+  text-transform: capitalize;
+  padding-top: 20px;
 }
 
 .grid-sec .container .grid-heading h1 {
@@ -748,7 +785,7 @@ ul {
   font-size: 25px;
   font-family: "Shippori Mincho";
   font-weight: bolder;
-  padding-bottom: 25px;
+
   color: #2e4049;
 }
 
@@ -778,6 +815,8 @@ ul {
   font-family: "Sue Ellen Francisco";
   font-size: 35px;
   font-weight: 400;
+text-transform: capitalize;
+  
 }
 
 .grid-row .grid-container-row-one .grid-item-big h1 {
@@ -785,6 +824,7 @@ ul {
   color: white;
   font-family: "Shippori Mincho";
   font-weight: 800;
+  text-transform: capitalize;
 }
 
 .grid-row .grid-container-row-one .grid-item-big p {
@@ -804,7 +844,6 @@ ul {
   cursor: pointer;
 }
 .grid-row .grid-container-row-one .grid-item-big .row-btn {
-  margin-top: 13px;
 }
 
 .grid-row .grid-items img {
@@ -960,24 +999,28 @@ ul {
   font-size: 60px;
   font-family: "Shippori Mincho";
   text-align: center;
+  font-weight: 800;
 }
 
 .testmonial .container .four .two h1 {
   font-size: 60px;
   font-family: "Shippori Mincho";
   text-align: center;
+  font-weight: 800;
 }
 
 .testmonial .container .four .three h1 {
   font-size: 60px;
   font-family: "Shippori Mincho";
   text-align: center;
+  font-weight: 800;
 }
 
 .testmonial .container .four .fourth h1 {
   font-size: 60px;
   font-family: "Shippori Mincho";
   text-align: center;
+  font-weight: 800;
 }
 
 .testmonial .container .four .one h2 {
@@ -986,6 +1029,7 @@ ul {
   font-weight: 400;
   text-transform: capitalize;
   text-align: center;
+  color: #727272;
 }
 
 .testmonial .container .four .two h2 {
@@ -994,6 +1038,7 @@ ul {
   font-weight: 400;
   text-transform: capitalize;
   text-align: center;
+  color: #727272;
 }
 
 .testmonial .container .four .three h2 {
@@ -1002,6 +1047,7 @@ ul {
   font-weight: 400;
   text-transform: capitalize;
   text-align: center;
+  color: #727272;
 }
 
 .testmonial .container .four .fourth h2 {
@@ -1010,6 +1056,7 @@ ul {
   font-weight: 400;
   text-transform: capitalize;
   text-align: center;
+  color: #727272;
 }
 
 .testmonial .container .the-two {
@@ -1018,11 +1065,21 @@ ul {
   grid-template-columns: auto auto auto auto auto;
 }
 
+.testmonial .container .the-two .two img {
+  position: relative;
+  bottom: 22px;
+}
+
 hr {
   position: relative;
   top: 60px;
   opacity: 40%;
   border-color: #d0d0d0;
+}
+.vol-header {
+padding-bottom: 20px;
+
+
 }
 
 
@@ -1030,30 +1087,27 @@ hr {
 
 
 .vol-header p {
-font-family: "Sue Ellen Francisco";
-color: #FF6D6D;
-font-size: 35px;
-text-align: center;
-
+  font-family: "Sue Ellen Francisco";
+  color: #ff6d6d;
+  font-size: 35px;
+  text-align: center;
+  text-transform: capitalize;
+font-weight: 400;
 }
-
 
 .vol-header h2 {
   text-align: center;
-font-family: "Shippori Mincho";
-
-
-
-
-
+  font-family: "Shippori Mincho";
+  text-transform: capitalize;
+font-size: 40px;
+font-weight: 800;
 
 }
-
 
 .card-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px; /* Space between cards */
+  gap: 20px;
 }
 
 .car {
@@ -1064,6 +1118,8 @@ font-family: "Shippori Mincho";
 
 .volnteers {
   background-color: #f1eeec;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .volnteers .container .card-grid .vol-icons {
@@ -1071,4 +1127,514 @@ font-family: "Shippori Mincho";
   gap: 20px;
   justify-content: center;
   padding-top: 10px;
+}
+
+.card-grid .car img {
+  max-width: 100%;
+}
+
+.card-grid .car-hand {
+  background-color: #77d7d3;
+  max-width: 100%;
+  padding: 16px;
+  text-align: center;
+  background-clip: content-box;
+}
+.card-grid .car p {
+  font-size: 20px;
+  font-family: "Shippori Mincho";
+  text-transform: capitalize;
+  font-weight: 800;
+  padding-top: 10px;
+}
+
+.card-grid .car-hand img {
+  padding-top: 40px;
+  width: 82px;
+  height: 112px;
+}
+
+.card-grid .car-hand h2 {
+  font-size: 25px;
+  font-family: "Shippori Mincho";
+
+  color: #2e4049;
+  padding-top: 20px;
+}
+
+.card-grid .car-hand h3 {
+  font-size: 20px;
+  font-family: "Work Sans";
+  color: #2e4049;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.card-grid .car-hand button {
+  padding: 18px 35px;
+  font-size: 18px;
+  color: white;
+  font-family: "work sans";
+  border-radius: 30px;
+  background-color: #2e4049;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.card-grid .car-hand .vol-btn {
+  padding-top: 13px;
+}
+
+.events {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.events .events-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.events .events-heading .heding-para p {
+  font-family: "Sue Ellen Francisco";
+  font-size: 35px;
+  color: #ff6d6d;
+  text-transform: capitalize;
+}
+
+.events .events-heading .heding-para h2 {
+  font-family: "Shippori Mincho";
+  font-size: 40px;
+  color: #2e4049;
+  text-transform: capitalize;
+}
+
+.events .events-heading .the-heading-btn button {
+  padding: 20px 28px;
+  border-radius: 30px;
+  color: white;
+  background-color: #ff6d6d;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "work sans";
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+}
+.left-right-events .the-left {
+  padding-top: 50px;
+}
+
+.left-right-events .the-left p {
+  font-family: "Sue Ellen Francisco";
+  color: #ff6d6d;
+  font-size: 35px;
+  text-transform: capitalize;
+}
+
+.left-right-events .the-left h2 {
+  font-family: "Shippori Mincho";
+  font-size: 40px;
+  color: #2e4049;
+  text-transform: capitalize;
+  padding-bottom: 40px;
+}
+
+.left-right-events .the-left img {
+  max-width: 100%;
+}
+
+.left-right-events .the-left .timing {
+  display: flex;
+  text-transform: capitalize;
+  color: #727272;
+  text-transform: capitalize;
+  gap: 75px;
+  padding-top: 15px;
+  position: relative;
+}
+
+.left-right-events .the-left .timing::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background-color: #c7c7c7;
+  bottom: 3px;
+  width: 600px;
+}
+
+.left-right-events .the-left .timing .time-left h2 {
+  font-size: 20px;
+  font-family: "Work Sans";
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.left-right-events .the-left .timing .time-left span {
+  color: black;
+}
+
+.left-right-events .the-left .timing .time-right h2 {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #2e4049;
+  font-family: "Work Sans";
+  font-weight: 500;
+}
+
+.left-right-events .the-left .right-h {
+  font-family: "Shippori Mincho";
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: capitalize;
+  color: #2e4049;
+}
+
+.left-right-events .the-left .right-p {
+  font-size: 20px;
+  font-family: "work sans";
+  color: #727272;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+.left-right-events .the-left .location {
+  background-color: #f0f0f0;
+  width: fit-content;
+  padding: 15px;
+}
+
+
+
+.left-right-events .the-left .location p {
+  color: #2e4049;
+  font-family: "work sans";
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.fa-location-dot {
+  color: #ff6d6d;
+  padding-right: 5px;
+}
+
+.fa-clock {
+  color: #ff6d6d;
+  padding-right: 15px;
+}
+
+.events .left-right-events {
+  display: flex;
+  gap: 40px;
+}
+
+.events .left-right-events .the-right .the-right-btn button {
+  padding: 20px 35px;
+  cursor: pointer;
+}
+
+.the-right {
+  display: flex;
+}
+
+.the-right .flex-one .first-flex {
+  font-size: 25px;
+  padding-top: 20px;
+  background-color: #202d33;
+  padding: 25px;
+  color: white;
+  position: relative;
+  top: 50px;
+  right: 20px;
+  text-align: center;
+}
+
+.the-right .flex-one .sec-flex {
+  font-size: 25px;
+  padding-top: 20px;
+  background-color: #202d33;
+  padding: 25px;
+  color: white;
+  position: relative;
+  top: 81px;
+  right: 20px;
+  text-align: center;
+}
+
+.the-right .flex-one .thr-flex {
+  font-size: 25px;
+  padding-top: 20px;
+  background-color: #202d33;
+  padding: 25px;
+  color: white;
+  position: relative;
+  top: 118px;
+  right: 20px;
+  text-align: center;
+}
+
+.the-right .flex-one h4 {
+  font-size: 25px;
+  text-transform: capitalize;
+  padding-top: 20px;
+}
+
+.the-right .sec-event-one h3 {
+  font-family: "Work Sans";
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #727272;
+  font-weight: 400;
+  padding-top: 50px;
+}
+
+.the-right .sec-event-one span {
+  font-family: "Work Sans";
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #ff6d6d;
+  font-weight: 400;
+}
+
+.the-right .sec-event-one h1 {
+  font-family: "Shippori Mincho";
+  text-transform: capitalize;
+  font-size: 25px;
+  color: #2e4049;
+  font-weight: 800;
+}
+
+.the-right .sec-event-one p {
+  font-family: "Work Sans";
+  font-size: 20px;
+  color: #727272;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.events .left-right-events .the-right .sec-event-one {
+  position: relative;
+}
+
+.events .left-right-events .the-right .sec-event-one::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background-color: #c7c7c7;
+  bottom: -30px;
+  width: 550px;
+  left: -142px;
+}
+
+.email .mail-cont {
+  display: flex;
+  justify-content: space-around;
+}
+
+.email .mail-cont .left-mail-sec {
+  background-color: #ff6d6d;
+  width: 50%;
+  padding-left: 100px;
+  height: 385px;
+  padding-top: 70px;
+  color: white;
+}
+
+.email .mail-cont .right-mail-sec {
+  background-image: url(../img/the\ back.png);
+  width: 50%;
+  padding-left: 120px;
+  padding-top: 70px;
+}
+
+.left-mail-sec p {
+  font-size: 35px;
+  font-family: "Sue Ellen Francisco";
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.left-mail-sec h2 {
+  font-size: 40px;
+  font-family: "Shippori Mincho";
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.left-mail-sec h4 {
+  font-size: 20px;
+  font-family: "work sans";
+  font-weight: 400;
+  padding-top: 25px;
+}
+
+.left-mail-sec .mail-inp {
+  display: flex;
+  gap: 20px;
+  padding-top: 32px;
+}
+
+.left-mail-sec .mail-inp .inp-fil input {
+  padding: 25px 95px;
+  border-radius: 35px;
+  border: none;
+}
+
+.left-mail-sec .mail-inp .mail-btn button {
+  padding: 24px 35px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #2e4049;
+  font-family: "Work Sans";
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.mail-cont .right-mail-sec p {
+  font-family: "Sue Ellen Francisco";
+  font-size: 35px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.mail-cont .right-mail-sec h1 {
+  font-family: "Shippori Mincho";
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+
+.mail-cont .right-mail-sec .right-mail-btn button {
+  padding: 20px 35px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #2e4049;
+  font-family: "Work Sans";
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #2e4049;
+}
+.left-column p {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Work Sans";
+  font-weight: 400px;
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+
+.con {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 115px 0px 115px 0px;
+}
+.left-column {
+  flex: 1;
+}
+.footer-logo {
+  padding-bottom: 20px;
+}
+.right-column {
+  flex: 2;
+  display: flex;
+  padding: 33px 10px 40px 30px;
+
+  background-color: #384c56;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0 10px;
+  flex: 1 1 30%;
+}
+.list li {
+  margin-bottom: 10px;
+}
+
+.copy {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.01px;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  padding: 20px 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  padding-top: 15px;
+}
+
+.ins,
+.fac,
+.tw,
+.pn {
+  background-color: #384c56;
+
+  padding: 25px;
+  border-radius: 50%;
+}
+
+.social-icons .ins .fa-instagram {
+  color: white;
+}
+
+.social-icons .fac .fa-facebook {
+  color: white;
+}
+
+.social-icons .tw .fa-twitter {
+  color: white;
+}
+
+.social-icons .pn .fa-pinterest {
+  color: white;
+}
+
+.rt-heading {
+  font-family: "Shippori Mincho";
+  font-size: 25px;
+  color: #ffffff;
+  text-transform: capitalize;
+  cursor: pointer;
+  padding-bottom: 40px;
+  font-weight: 700px;
+}
+
+.right-column .list li {
+  font-family: "Work Sans";
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-weight: 400px;
+}
+
+.right-column .list li:hover {
+  color: #ff6d6d;
+  cursor: pointer;
+}
+
+hr {
+  border-color: rgb(145, 139, 139);
+  opacity: 30%;
+}
+.nums {
+  padding-bottom: 20px;
 }
