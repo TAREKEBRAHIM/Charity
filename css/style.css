@@ -1075,12 +1075,13 @@ padding-top: 20px;
   display: grid;
   padding-top: 100px;
   grid-template-columns: auto auto auto auto auto;
+  margin-top: 45px;
+
+
 }
 
-.testmonial .container .the-two .two img {
-  position: relative;
-  bottom: 22px;
-}
+
+
 
 hr {
   position: relative;

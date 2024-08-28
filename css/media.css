@@ -25,6 +25,10 @@
   }
 }
 
+
+
+
+
 @media (max-width: 767px) {
 .sec-two {
  
@@ -77,6 +81,8 @@
   }
 }
 
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .sec-two .container .cards {
@@ -101,6 +107,9 @@
     gap: 50px;
   }
 }
+
+
+
 
 @media (max-width: 480px) {
   .sec-two .container .card-one h2,
@@ -354,7 +363,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .grid-row .grid-container-row-one .grid-item-big {
     padding: 20px; /* Minimal padding */
   }
@@ -418,6 +427,8 @@
 
   .testmonial .container .the-two {
     grid-template-columns: 1fr 1fr; /* Adjust grid layout for small screens */
+  gap: 15px;
+  
   }
 
   .testmonial .container .four .one h1,
@@ -471,6 +482,10 @@
     font-size: 16px; /* Adjust font size */
   }
 }
+
+
+
+
 
 @media (max-width: 768px) {
   .card-container .card .card-text p {
@@ -570,7 +585,9 @@
   .card-grid .car-hand button {
     padding: 12px 25px;
     font-size: 16px;
-  }
+  position: relative;
+bottom: 9px;  
+}
 }
 
 @media (max-width: 768px) {
