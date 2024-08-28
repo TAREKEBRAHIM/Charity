@@ -83,7 +83,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: 50px;
+    top: 5px;
   }
 
   .sec-two .container .card-one,
@@ -92,9 +92,22 @@
     width: 100%;
   }
 
+  .mon .text-one {
+    font-size: 14px;
+    padding-top: 10px;
+    text-transform: capitalize;
+  }
+  .mon .text-two {
+    font-size: 14px;
+    padding-top: 10px;
+    text-transform: capitalize;
+    padding-right: 17px;
+  }
+
   .about {
     display: block;
     text-align: center;
+    padding-top: 50px;
   }
 
   .right-sec .mon {
@@ -119,9 +132,18 @@
   .right-sec h2 {
     font-size: 20px;
   }
+  .right-sec button {
+    padding: 14px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-family: "work sans";
+    cursor: pointer;
+  }
 
   .right-sec .mon {
-    flex-direction: column;
     gap: 10px;
   }
 }
@@ -202,6 +224,25 @@
   }
 }
 
+@media (max-width: 768px) {
+  .grid-sec .grid-container .grid-item h2 {
+    font-family: "Shippori Mincho";
+    font-size: 21px;
+    font-weight: 800;
+    text-transform: capitalize;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-sec .grid-container .grid-item p {
+    color: #727272;
+    font-family: "Work Sans";
+    font-size: 14px;
+    text-transform: capitalize;
+    padding-top: 20px;
+  }
+}
+
 @media (max-width: 480px) {
   .submit {
     padding-top: 60px;
@@ -236,7 +277,6 @@
     grid-template-columns: repeat(2, auto); /* 2 columns for tablets */
     gap: 60px 20px; /* Adjust gap */
   }
-
   .grid-sec {
     padding-top: 80px;
     padding-bottom: 90px;
@@ -281,7 +321,12 @@
     padding-top: 40px;
     padding-bottom: 50px;
   }
-
+  .grid-container-row-two .grid-back h2 {
+    font-size: 19px;
+    font-family: "Shippori Mincho";
+    text-transform: capitalize;
+    padding-top: 20px;
+  }
   .grid-sec .container .grid-heading p {
     font-size: 24px;
   }
@@ -307,7 +352,7 @@
   }
 
   .grid-row .grid-container-row-one .grid-item-big {
-    padding: 60px; /* Reduce padding */
+    text-align: center;
   }
 
   .grid-row .grid-container-row-one .grid-item-big h2 {
@@ -327,10 +372,6 @@
   .grid-container-row-one,
   .grid-container-row-two {
     grid-template-columns: 100%; /* Stack items vertically */
-  }
-
-  .grid-row .grid-container-row-one .grid-item-big {
-    padding: 40px; /* Further reduce padding */
   }
 
   .grid-row .grid-container-row-one .grid-item-big h2 {
@@ -357,10 +398,6 @@
 }
 
 @media (max-width: 768px) {
-  .grid-row .grid-container-row-one .grid-item-big {
-    padding: 20px; /* Minimal padding */
-  }
-
   .grid-row .grid-container-row-one .grid-item-big h2 {
     font-size: 24px;
   }
@@ -381,6 +418,21 @@
   .grid-back .pills {
     font-size: 16px;
     top: 50%; /* Further adjust for smaller screens */
+  }
+}
+@media (max-width: 768px) {
+  .about .left-sec .left-sec-btn {
+    padding-top: 37px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .right-sec .lists {
+    display: flex;
+    font-size: 8px;
+    text-transform: capitalize;
+    color: #727272;
   }
 }
 
@@ -439,16 +491,20 @@
 }
 
 @media (max-width: 480px) {
+  .testmonial .test-head {
+    text-align: center;
+    padding-bottom: 10px;
+  }
   .card img {
     max-width: 40%; /* Further reduce image size on very small screens */
   }
 
   .testmonial .test-head h3 {
-    font-size: 25px; /* Adjust heading sizes for extra small screens */
+    font-size: 22px; /* Adjust heading sizes for extra small screens */
   }
 
   .testmonial .test-head h1 {
-    font-size: 30px;
+    font-size: 21px;
   }
 
   .testmonial .container .four {
@@ -477,7 +533,7 @@
 
 @media (max-width: 768px) {
   .card-container .card .card-text p {
-    font-size: 6px;
+    font-size: 9px;
     font-family: "Work Sans";
     color: #727272;
   }
@@ -556,9 +612,22 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .vol-header p {
     font-size: 22px;
+  }
+  .card-grid .car-hand {
+    background-color: #77d7d3;
+    max-width: 100%;
+    padding: 16px;
+    text-align: center;
+  }
+  .vol-header h2 {
+    text-align: center;
+    font-family: "Shippori Mincho";
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 800;
   }
 
   .card-grid .car-hand h2 {
@@ -571,7 +640,7 @@
   }
 
   .card-grid .car-hand button {
-    padding: 12px 25px;
+    padding: 10px 10px;
     font-size: 16px;
     position: relative;
     bottom: 9px;
@@ -630,8 +699,8 @@
   }
 
   .events .events-heading .the-heading-btn button {
-    padding: 15px 25px;
-    font-size: 16px;
+    padding: 10px 10px;
+    font-size: 12px;
     margin-top: 20px;
   }
 
@@ -711,8 +780,8 @@
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 50px;
-    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .left-mail-sec p,
@@ -734,7 +803,7 @@
   }
 
   .left-mail-sec .mail-inp {
-    padding: 10px;
+    padding-top: 30px;
   }
 
   .left-mail-sec .mail-inp .inp-fil input {
@@ -743,13 +812,11 @@
   }
 
   .left-mail-sec .mail-inp .mail-btn button {
-  padding: 14px 23px;
-   font-size: 16px;
-  bottom: 10px;
-  font-weight: 300;
-  
-
-}
+    padding: 14px 23px;
+    font-size: 16px;
+    bottom: 10px;
+    font-weight: 300;
+  }
 
   .mail-cont .right-mail-sec .right-mail-btn button {
     padding: 15px 20px;
@@ -760,8 +827,11 @@
   }
 }
 
-
-
+@media (max-width: 768px) {
+  hr {
+    display: none;
+  }
+}
 
 /* Mobile styles */
 @media (max-width: 768px) {

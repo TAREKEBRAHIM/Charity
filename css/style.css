@@ -712,6 +712,8 @@ ul {
   background-image: url(../img/Background.png);
   border: 1px solid white;
   background: transparent;
+color: white;
+
 }
 
 .submit .container .form .the-form .small .lrg-inp {
@@ -1576,6 +1578,9 @@ footer {
 .list li {
   margin-bottom: 10px;
 }
+
+
+
 
 .copy {
   font-family: "Inter";
