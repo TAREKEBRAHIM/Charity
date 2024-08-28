@@ -25,24 +25,19 @@
   }
 }
 
-
-
-
-
 @media (max-width: 767px) {
-.sec-two {
- 
-  text-align: center;
-}
+  .sec-two {
+    text-align: center;
+  }
 }
 
 @media (max-width: 767px) {
-.landing {
-  min-height: 37vh;
+  .landing {
+    min-height: 37vh;
 
-  background-size: cover;
-  position: relative;
-}
+    background-size: cover;
+    position: relative;
+  }
 }
 
 @media (max-width: 768px) {
@@ -81,9 +76,8 @@
   }
 }
 
-
-
 /* Responsive Design */
+
 @media (max-width: 768px) {
   .sec-two .container .cards {
     flex-direction: column;
@@ -95,7 +89,7 @@
   .sec-two .container .card-one,
   .sec-two .container .card-two,
   .sec-two .container .card-three {
-    width: 90%;
+    width: 100%;
   }
 
   .about {
@@ -107,9 +101,6 @@
     gap: 50px;
   }
 }
-
-
-
 
 @media (max-width: 480px) {
   .sec-two .container .card-one h2,
@@ -144,7 +135,9 @@
 @media (max-width: 768px) {
   .about .left-sec button {
     position: relative;
-    bottom: 5px;
+    bottom: 12px;
+    padding: 16px 10px;
+    font-size: 14px;
   }
 }
 
@@ -427,8 +420,7 @@
 
   .testmonial .container .the-two {
     grid-template-columns: 1fr 1fr; /* Adjust grid layout for small screens */
-  gap: 15px;
-  
+    gap: 15px;
   }
 
   .testmonial .container .four .one h1,
@@ -482,10 +474,6 @@
     font-size: 16px; /* Adjust font size */
   }
 }
-
-
-
-
 
 @media (max-width: 768px) {
   .card-container .card .card-text p {
@@ -585,9 +573,39 @@
   .card-grid .car-hand button {
     padding: 12px 25px;
     font-size: 16px;
-  position: relative;
-bottom: 9px;  
+    position: relative;
+    bottom: 9px;
+  }
 }
+
+@media (max-width: 768px) {
+  .slider .slider-header button {
+    padding: 14px 20px;
+    border-radius: 30px;
+    background-color: #ff6d6d;
+    font-size: 11px;
+    color: white;
+    border: none;
+    text-transform: capitalize;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider-header .txt h2 {
+    font-family: "Shippori Mincho";
+    font-size: 18px;
+    font-weight: 800;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider-header .txt p {
+    color: #ff6d6d;
+    font-size: 20px;
+    font-family: "Sue Ellen Francisco";
+    text-transform: capitalize;
+  }
 }
 
 @media (max-width: 768px) {
@@ -716,21 +734,22 @@ bottom: 9px;
   }
 
   .left-mail-sec .mail-inp {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
+    padding: 10px;
   }
 
   .left-mail-sec .mail-inp .inp-fil input {
-    width: 100%;
-    padding: 15px;
+    width: 108%;
+    padding: 14px;
   }
 
   .left-mail-sec .mail-inp .mail-btn button {
-    padding: 15px 30px;
-    position: relative;
-    bottom: 10px;
-  }
+  padding: 14px 23px;
+   font-size: 16px;
+  bottom: 10px;
+  font-weight: 300;
+  
+
+}
 
   .mail-cont .right-mail-sec .right-mail-btn button {
     padding: 15px 20px;
@@ -740,6 +759,9 @@ bottom: 9px;
     bottom: 10px;
   }
 }
+
+
+
 
 /* Mobile styles */
 @media (max-width: 768px) {
